@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CodexGraph</title>
+    <meta name="description" content="CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta property="og:image" content="/logo.png" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="..."
+      crossorigin="anonymous"
+    />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XXXXXX");
+    </script>
+  </head>
+  <body>
+    <div style="padding-bottom: 50px">
+      <section style="background-color: var(--background_color)">
+        <div class="content-wrapper title-wrapper" style="flex-direction: column">
+          <div style="display: flex; flex-direction: row; align-items: center; padding-bottom: 15px; padding-left: 10em">
+            <h1 style="font-size: 60px; padding-top: 0.4em">CodexGraph</h1>
+            <img src="codexgraph.png" style="height: 70px; padding-top: 0em; padding-left: 1.5em" />
+          </div>
+          <h2>Bridging Large Language Models and Code Repositories via Code Graph Databases</h2>
+          <p style="text-align: center; margin-top: 1.2em;">
+            Author 1*, Author 2*, <br />
+            Author 3, Author 4, Author 5, <br />
+            Author 6, Author 7
+          </p>
+          <h3 style="font-size: 25px; padding-top: 1em">Conference XYZ 2024</h3>
+          <div class="content-wrapper" style="margin-top: 2em">
+            <a href="https://example.com/paper">
+              <button class="outline">
+                <i class="fa fa-paperclip"></i> Paper&nbsp;
+              </button>
+            </a>
+            <a href="https://github.com/example/research-code">
+              <button class="outline">
+                <i class="fab fa-github"></i> Code&nbsp;
+              </button>
+            </a>
+            <!-- <a href="submit.html">
+              <button class="outline">
+                <i class="fa fa-upload"></i> Submit&nbsp;
+              </button>
+            </a> -->
+            <a href="viewer.html">
+              <button class="outline">
+                <i class="fa fa-chart-simple"></i> Demo&nbsp;
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+    <section class="main-container">
+        <!-- <div class="content-wrapper" style="display: flex; justify-content: center; align-items: center;">
+            <div style="background-color: black; padding: 1.5em 1em; color: white; border-radius: 1em; text-align: center; width: 80%;">
+              🔥 Evaluating on SWE-bench just became a lot more reliable!
+              SWE-bench evaluation now uses <b>Docker</b> for easier, containerized, reproducible evaluation.
+              [<a style="color:#0ca7ff" href="https://github.com/princeton-nlp/SWE-bench/tree/main/docs/20240627_docker">Report</a>]
+            </div>
+          </div> -->
+        <div class="content-wrapper">
+            <div class="content-box">
+                <h2 class="text-title">Introduction</h2>
+                <img src="img/codexgraph_motivation.png" style="width: 65%; display: block; margin: 0 auto;">
+                <p class="text-content">we introduce CodexGraph, a system that integrates LLM agents with graph database interfaces extracted from code repositories. By leveraging the structural properties of graph databases and the flexibility of the graph query language, CodexGraph enables the LLM agent to construct and execute multi-hop queries, allowing for accurate, code structure-aware context retrieval and code navigation.</p>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="content-box">
+                <h2 class="text-title">Results</h2>
+                <p class="text-content"></p>
+                <img src="img/codexgraph_result.png" style="width: 65%; display: block; margin: 0 auto;">
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="content-box">
+                <h2 class="text-title">Real-world Applications</h2>
+                <p class="text-content">we develop five real-world coding
+                    applications based on CODEXGRAPH. With a unified graph database schema,
+                    CODEXGRAPH demonstrates competitive performance across diverse academic
+                    tasks and highlights its potential application value in real production environments,
+                    underscoring its versatility and efficacy in various software engineering
+                    applications.</p>
+                <img src="img/CodeChatPage.png" style="width: 65%; display: block; margin: 0 auto;">
+                <img src="img/pages.png" style="width: 65%; display: block; margin: 0 auto;">
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="content-box">
+                <h2 class="text-title">Citation</h2>
+                <pre><code>@inproceedings{example,
+                    title={Example Title: An Example of a Research Paper Citation},
+                    author={Doe, John and Smith, Jane and Roe, Richard and Black, Alice and White, Bob},
+                    booktitle={Proceedings of the Example Conference on Example Research},
+                    year = {2024},
+                  }</code></pre>
+                  
+            </div>
+        </div>
+    </section>
+    </div>
+  </body>
+</html>
